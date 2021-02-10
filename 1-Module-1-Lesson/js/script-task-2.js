@@ -1,4 +1,6 @@
-// Приоритет операторов
+// Приоритет операторов. Операторы и их сокращения
 
-const result = 108+223-2*5;
-console.log(result);
+let i = 2;
+
+console.log(--i);
+console.log(i);

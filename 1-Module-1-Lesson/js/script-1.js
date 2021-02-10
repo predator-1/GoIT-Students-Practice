@@ -1,4 +1,6 @@
 // VAR
-
+let total;
 console.log(total);
-var total = 15;
+
+total = 12;
+total = 'ne total';

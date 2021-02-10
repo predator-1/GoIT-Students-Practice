@@ -4,6 +4,7 @@
 const name = 'Манго';
 const age = 5;
 const hobby = 'плавать';
-const message = ' ';
+// const messageConcat = ' Меня зовут ' + name + ', мне ' + age + hobby;
+const messageSchema = ` Меня зовут ${name}, мне ${age} лет и я люблю ${hobby}`;
 
-console.log(message.trim());
+console.log(messageSchema[1]);
