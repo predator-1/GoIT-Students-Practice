@@ -5,13 +5,14 @@
 - Тернарный оператор
 - switch
 - Циклы while, do...while и for
-- Директивы break и continue"
+- Директивы break и continue
 
 ### Вопросы
 
 - Сравнение строк **js/script-1.js**
 - Когда switch когда if else **js/script-2.js**
 - Тернарный оператор **js/script-3.js**
+- Логический оператор && **js/script-8.js**
 
 ### Разбор задач
 

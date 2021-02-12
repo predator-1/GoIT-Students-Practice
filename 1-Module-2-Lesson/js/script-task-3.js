@@ -1,12 +1,7 @@
 // Тернарный оператор
 
 const appleRadius = 5;
-const size = '';
 
-if (appleRadius > 4) {
-  size = 'big';
-} else {
-  size = 'small';
-}
+const size = appleRadius > 4 ? 'big' : 'small';
 
 console.log(size);
