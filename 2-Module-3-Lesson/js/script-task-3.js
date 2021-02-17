@@ -7,3 +7,13 @@
  */
 
 const styles = ['Jazz', 'Blues'];
+
+styles.push('Rock');
+styles.splice(styles.length / 2, 1, 'Classic');
+console.log(styles.shift());
+
+styles.unshift('Rap', 'Raggy');
+styles.forEach(function (d) {
+  console.log(d);
+});
+console.log(styles);

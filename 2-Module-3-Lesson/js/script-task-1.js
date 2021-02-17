@@ -1,9 +1,6 @@
 // Dev-tools debug
-// Reference abd value types
-const marks = [7, 8, 11, 5, 4, 8];
-let total;
-for (let i = 0; i < marks.length; i++) {
-  total += marks[i];
-}
-
-console.log(total);
+// Reference and value types
+const mathMarks = [['1', '2', '3']];
+const myMarks = mathMarks.slice();
+myMarks[0].push('1', '2');
+console.log(mathMarks);

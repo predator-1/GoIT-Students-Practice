@@ -9,36 +9,18 @@ const medals = [
   ['USA', 6, 1, 2],
 ];
 
-/*
-*
-*
-*
-*
-*
-*
-*
-*
-*
-*
-*
-*
-*
-*
-*
-*
-*
-*
-*
-*
-*
-*
-*
-*
-*
+for (const raw of medals) {
+  let tableLine = '';
+  for (const line of raw) {
+    let newLine = String(line).padStart(10, ' ');
+    tableLine += ' ' + newLine;
+  }
+  console.log(tableLine);
+}
 
 const medalsReverse = [
-    ['Country', 'Ukraine', 'Canada', 'USA'],
-    ['Hokey', 1, 10, 6],
-    ['Football', 5, 2, 1],
-    ['Volleyball', 3, 4, 2],
-];*/
+  ['Country', 'Ukraine', 'Canada', 'USA'],
+  ['Hokey', 1, 10, 6],
+  ['Football', 5, 2, 1],
+  ['Volleyball', 3, 4, 2],
+];
