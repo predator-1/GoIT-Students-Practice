@@ -6,4 +6,6 @@ function myFun(a, b, ...manyMoreArgs) {
   console.log('manyMoreArgs', manyMoreArgs);
 }
 
+const myFun2 = (...manyMoreArgs) => {};
+
 myFun('one', 'two', 'three', 'four', 'five', 'six');

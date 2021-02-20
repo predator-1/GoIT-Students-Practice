@@ -7,48 +7,14 @@ const medalsReverse = [
   ['Volleyball', 3, 4, 2, 8],
 ];
 
-/**
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * let lineNum = 0;
 let counter = 0;
 
-for (let i = 0; i < medalsReverse.length; i++) {
+for (let i = 0; i < medalsReverse[0].length; i++) {
   let lineTxt = '';
-  for (let y = 0; y < medalsReverse[i].length; y++) {
-    lineTxt += String(medalsReverse[lineNum][y]).padStart(10, ' ');
+  for (let y = 0; y < medalsReverse.length; y++) {
+    lineTxt += String(medalsReverse[y][i]).padStart(10, ' ');
     counter++;
   }
-  lineNum++;
   console.log(lineTxt);
 }
-
 console.log(counter);
- */

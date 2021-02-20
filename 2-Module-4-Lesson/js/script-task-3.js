@@ -2,6 +2,6 @@
 
 const countries = ['USA', 'Ukraine', 'Germany'];
 const country = 'UK';
-const allCountries = [...countries, country];
+const allCountries = [country, ...countries];
 
-console.log(allCountries);
+console.log(countries.concat(country));
