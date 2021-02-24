@@ -3,7 +3,28 @@
  */
 
 const calcTotalPrice = (stones, stoneName) => {
-  console.log('not implemented');
+  if (!stones || (stones && !stones.length)) {
+    return 0;
+  }
+
+  if (!stoneName) {
+    return 0;
+  }
+
+  let currentStone;
+
+  for (let stone of stones) {
+    if (stone.name === stoneName) {
+      currentStone = stone;
+      break;
+    }
+  }
+
+  if (!currentStone) {
+    return 0;
+  }
+
+  return currentStone.price * currentStone.quantity;
 };
 
 const stones = [
@@ -12,6 +33,12 @@ const stones = [
   { name: 'Sapphire', price: 400, quantity: 7 }, // Сапфир
   { name: 'Crushed stone', price: 200, quantity: 2 }, // Щебень
 ];
+
+console.log(calcTotalPrice(stones, 'Diamond'));
+console.log(calcTotalPrice(stones, 'Crushed stone'));
+console.log(calcTotalPrice(stones, 'Emerald'));
+console.log(calcTotalPrice(stones, 'Sapphire'));
+console.log(calcTotalPrice(null, 'Sapphire'));
 
 /*
 *
@@ -45,4 +72,6 @@ const stonesObject = {
   sapphire: { price: 400, quantity: 7 },
   crushedStone: { price: 200, quantity: 2 },
 };
+
+console.log(stonesObject, 'emerald'); // 5200
 */

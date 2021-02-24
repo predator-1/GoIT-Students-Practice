@@ -6,4 +6,8 @@ const animal = {
   pawsCount: 4,
 };
 
-animal.pawsCount = 5;
+animal = {
+  pawsCount: 4,
+};
+
+animal.head = 'round';

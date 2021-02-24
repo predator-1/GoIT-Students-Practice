@@ -11,8 +11,6 @@
 
 - const и object **./js/script-task-6.js**
 - Контекст this **./js/script-task-7.js**
-- **./js/script-task-.js**
-- **./js/script-task-.js**
 
 ### Разбор задач
 
