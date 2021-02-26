@@ -1,9 +1,13 @@
-// Spread
-// Right order
+// Destruction objects
 
-const lion = { hasTail: true, legs: 4 };
-const eagle = { canFly: true, legs: 2 };
+const account = {
+  balance: 100,
+  credit: 50,
+  bonus: 75,
+};
 
-const chimera = { ...lion, ...eagle };
+const getFullBalance = account => {};
 
-console.log(chimera);
+// Destruction array
+
+const salaries = [90, 100, 110]; // low mid hight

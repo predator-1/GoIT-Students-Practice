@@ -60,7 +60,7 @@ console.log(calcTotalPrice(null, 'Sapphire'));
 Создать функцию которая будет выводить общую цену за все камни по названию камня
 например calcTotalPrice(stonesObject, 'emerald') выведет в консоль 5200.
 Подумайте что может пойти не так во время выполнения вышей функции и выведите
-в консоль ошибку.
+в консоль ошибки.
 
 const calcTotalPrice = (stones, stoneName) => {
   console.log('not implemented');
