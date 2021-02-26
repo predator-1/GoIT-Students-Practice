@@ -6,6 +6,7 @@ const animal = {
   paws: 4,
   teeth: true,
   tail: false,
+  meth: () => {},
 };
 
-console.log('wings' in animal);
+console.log('meth' in animal);
