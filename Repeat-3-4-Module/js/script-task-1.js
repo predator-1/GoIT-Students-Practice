@@ -14,10 +14,11 @@ const hotel = {
 
 hotel.addGuests(100);
 
+console.log(hotel.guests);
 console.log(hotel['guests']);
 
 console.log(hotel[getName()]);
 
-delete hotel.name;
+delete hotel['name'];
 
 console.log(hotel);
