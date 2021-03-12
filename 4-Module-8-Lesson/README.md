@@ -24,3 +24,5 @@
 - Задача 4 **./js/script-task-4.js**
 - Задача 5 **./js/script-task-5.js**
 - Задача 6 **./js/script-task-6.js**
+- Задача 7 **./js/script-task-7.js**
+- Бонусная задача домой
