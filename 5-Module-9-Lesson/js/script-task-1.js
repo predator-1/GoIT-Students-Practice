@@ -8,10 +8,14 @@
 const result = [];
 
 for (var i = 0; i < 5; i++) {
-  result[i] = function () {
-    console.log(i);
-  };
+  result[i] = (function (currentI) {
+    return function () {
+      console.log(currentI);
+    };
+  })(i);
 }
+
+// console.log(i);
 
 result[0](); // 5, ожидаем 0
 result[1](); // 5, ожидаем 1
