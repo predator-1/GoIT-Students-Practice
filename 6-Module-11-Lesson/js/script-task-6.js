@@ -1,5 +1,5 @@
 // Собрать в allTopics массив всех предметов всех курсов используя flatMap.
-// Используя Array.prototype.filter выполнить фильтрацию, оставив в uniqueTopics
+// Используя filter выполнить фильтрацию, оставив в uniqueTopics
 //  только уникальные элементы.
 const courses = [
   {
@@ -38,3 +38,14 @@ const courses = [
     ],
   },
 ];
+
+const alltopics = courses.flatMap(item => item.topics);
+console.log(alltopics);
+const uniqueTopics = alltopics.filter(
+  (item, index, array) => array.indexOf(item) === index,
+);
+console.log(uniqueTopics);
+
+const nonWords = uniqueTopics.flatMap(item => item.split(' '));
+console.log(uniqueTopics.map(item => item.split(' ')));
+console.log(nonWords);
