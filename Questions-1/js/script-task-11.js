@@ -12,3 +12,22 @@ const products = [
   { name: 'HP', price: 400, quantity: 7 },
   { name: 'Dell', price: 1200, quantity: 9 },
 ];
+
+// const getAllPropValues = name => {
+//   return products.reduce((acc, item) => {
+//     if (item.hasOwnProperty(name)) acc.push(item[name]);
+
+//     return acc;
+//   }, []);
+// };
+
+const getAllPropValues = name => {
+  const acc = [];
+  products.forEach(item => {
+    if (item.hasOwnProperty(name)) acc.push(item[name]);
+  });
+  return acc;
+};
+
+console.log(getAllPropValues('name'));
+console.log(getAllPropValues('category'));
