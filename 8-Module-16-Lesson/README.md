@@ -1,6 +1,6 @@
 ## 8 Модуль 16 Занятие
 
-Coming soon...
+Начинаем в 19.30 Coming soon...
 
 ### План занятия
 
@@ -13,7 +13,7 @@ Coming soon...
 ### Темы занятия
 
 - chatty events (scroll и input)
-- IntersectionObserver и его полифил с polyfill.io
+- IntersectionObserver
 - image lazy load
 
 ### Вопросы
@@ -24,3 +24,4 @@ Coming soon...
 - Задача 2 **./js/script-task-2.js**
 - Задача 3 **./js/script-task-3.js**
 - Задача 4 **./js/script-task-4.js**
+- Пример Image lazy load **./js/script-task-5.js**
