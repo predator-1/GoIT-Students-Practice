@@ -1,0 +1,2 @@
+/** Create timer */
+'use strict';
